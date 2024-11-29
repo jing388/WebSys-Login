@@ -13,7 +13,6 @@ $password = $_POST["password"];
 $confirm_password = $_POST["confirm-password"];
 $role = $_POST["role"] ?? null;
 
-$errors = [];
 
 if (empty($name)) {
     $errors[] = "Name is required!";
